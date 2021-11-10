@@ -1,0 +1,43 @@
+Curso de Dominicode: https://youtube.com/playlist?list=PL_9MDdjVuFjHvzMp_hka8je82Jo8YJ4d_
+
+CONFIGURACIONES
+Instalar TypeScript
+    npm install -g typescript
+    https://www.npmjs.com/package/typescript
+
+Ver la versión de TypeScript
+    tsc -v
+
+Ejecutar archivos .ts
+    tsc index.ts
+    node index.js
+    Combinación para crear una carpeta dist
+        tsc --outDir dist index.ts && node dist/index.js
+
+Según se vaya haciendo cambios, vaya ejecutando
+    tsc --outDir dist index.ts --watch
+
+Iniciar una configuración automática
+    tsc --init
+        Se crea un archivo tsconfig.json
+        Descomentar la propiedad outDir
+            Asignar la carpeta dist
+                "outDir": "./dist",
+        Descomentar la propiedad rootDir
+            Indica desde dónde queremos compilar los ficheros
+                "rootDir": "./src",
+        Verificar la propiedad target
+            Son las versiones de ECMAScript
+                "target": "es6",
+Comando
+    Después de haber configurado, en el terminal escribir
+        tsc
+
+TEORIA
+- Tipado estático a diferencia de JavaScript
+    - Seguridad en los datos a recibir o enviar
+    - Usado al lado del cliente, react, angular, vue, etc
+    - Usado al lado del servidor con node
+- Objetos basado en clase
+- Traduce, compila, transpila el lenguaje TypeScript a JavaScript para que el navegador pueda entender
+
