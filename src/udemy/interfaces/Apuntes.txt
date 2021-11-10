@@ -1,0 +1,2 @@
+Una interfaz es como una clase abstracta, siendo como una plantilla donde
+se define propiedades
