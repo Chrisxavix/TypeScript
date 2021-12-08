@@ -5,3 +5,8 @@ tsc && node dist/udemy/fundamentos
 En el terminal de powershell, por separado 
 tsc
 node dist/udemy/fundamentos
+
+Ejecutar archivos de Fernando Herrera
+Estar en la ubicación del proyecto
+    npm install
+    npm start
