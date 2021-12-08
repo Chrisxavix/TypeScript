@@ -1,0 +1,7 @@
+Ejecutar un archivo .ts
+En el terminal bash
+tsc && node dist/udemy/fundamentos
+
+En el terminal de powershell, por separado 
+tsc
+node dist/udemy/fundamentos
