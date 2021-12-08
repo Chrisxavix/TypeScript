@@ -1,0 +1,2 @@
+Ejecutar un archivo .ts
+tsc && node dist/udemy/fundamentos
